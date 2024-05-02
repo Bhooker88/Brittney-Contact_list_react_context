@@ -29,7 +29,7 @@ export const ContactCard = (props) => {
             </button>
           </div>
           <label className="name lead">
-            {props.contact && props.contact.full_name}
+            {props.contact && props.contact.name}
           </label>
           <br />
           <i className="fas fa-map-marker-alt text-muted mr-3" />
