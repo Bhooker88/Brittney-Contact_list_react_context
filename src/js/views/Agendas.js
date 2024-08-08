@@ -32,7 +32,7 @@ const Agendas = () => {
             </ul>
             <div className="input-group">
                 <input type="text" onKeyDown={handleEnter} onChange={e => setInput(e.target.value)} value={input}></input>
-                <button onClick={() => { actions.createSlugAgenda(input); setInput(""); }}>Create Agenda</button>
+                <button onClick={() => { actions.createSlugAgenda(input); setInput(""); }}>Create Slug</button>
             </div>
         </div>
     );
