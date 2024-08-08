@@ -34,7 +34,7 @@ module.exports = {
   plugins: [
     new CleanWebpackPlugin(),
     new HtmlWebpackPlugin({
-      template: './public/index.html', 
+      template: './public/index.html',
     }),
     new webpack.DefinePlugin({
       'process.env.BASENAME': JSON.stringify(process.env.BASENAME || ''),
